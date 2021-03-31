@@ -1,0 +1,38 @@
+{
+  "name": "mdast-util-fix-relative-uris",
+  "version": "0.1.0",
+  "description": "Resolve relative URIs in MDAST",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . -w --loglevel warn",
+    "test": "ava"
+  },
+  "keywords": [
+    "remark",
+    "micromark",
+    "mdast",
+    "ast"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "mdast-util-from-markdown": "^0.8.5",
+    "mdast-util-to-markdown": "^0.6.5",
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "unist-util-visit": "^2.0.3"
+  }
+}
