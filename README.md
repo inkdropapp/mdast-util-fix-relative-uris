@@ -80,5 +80,5 @@ The given, modified, tree.
 
 [mdast]: https://github.com/syntax-tree/mdast
 [npm]: https://docs.npmjs.com/cli/install
-[license]: license
+[license]: LICENSE
 [author]: https://www.craftz.dog/
