@@ -5,6 +5,7 @@ var visit = require('unist-util-visit')
 module.exports = fixRelativeURIs
 
 function fixRelativeURIs(tree, baseURI = '') {
+  if (typeof baseURI !== 'string') throw new Error('baseURI is required')
   visit(tree, 'link', resolve)
 
   return tree
