@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "Resolve relative URIs in MDAST",
   "main": "index.js",
+  "repository": "inkdropapp/mdast-util-fix-relative-uris",
+  "bugs": "https://github.com/inkdropapp/mdast-util-fix-relative-uris/issues",
   "scripts": {
     "format": "prettier . -w --loglevel warn",
     "test": "ava"

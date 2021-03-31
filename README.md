@@ -74,5 +74,11 @@ Fix relative URIs of links in the given [mdast][] tree.
 
 The given, modified, tree.
 
+## License
+
+[MIT][license] © [Takuya Matsuyama][author]
+
 [mdast]: https://github.com/syntax-tree/mdast
 [npm]: https://docs.npmjs.com/cli/install
+[license]: license
+[author]: https://www.craftz.dog/
