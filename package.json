@@ -1,6 +1,6 @@
 {
   "name": "mdast-util-fix-relative-uris",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resolve relative URIs in MDAST",
   "main": "index.js",
   "repository": "inkdropapp/mdast-util-fix-relative-uris",
