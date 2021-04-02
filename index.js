@@ -11,7 +11,7 @@ function fixRelativeURIs(tree, baseURI = '') {
   return tree
 
   function resolve(node) {
-    if (typeof node.url === 'string') {
+    if (typeof node.url === 'string' && node.url.charAt(0) !== "#") {
       node.url = String(new URL(node.url, baseURI))
     }
   }
